@@ -1,7 +1,5 @@
 # Implementing a Sieve cache in Go
 
-I recently found myself diving into the world of cache management after implementing an LRU (Least Recently Used) cache. While it worked well, I couldn’t help but wonder if there were faster and more efficient cache eviction algorithms out there. My curiosity led me down a rabbit hole of research, exploring different strategies, and one that intrigued me was SIEVE cache.
-
 Unlike traditional caching systems that might use standard policies (e.g., LRU, LFU), a sieve cache focuses on selective and adaptive caching based on specific filtering rules or algorithms tailored to the use case.
 
 ## Sieve Cache
